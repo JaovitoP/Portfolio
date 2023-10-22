@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){  /*De celulares para cima*/
+    #burguer{
+        display: none;
+    }
+    nav{
+        display:block;
+    }
+    nav a {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-joao {
+        flex-direction: column; /* Altera o layout para empilhar verticalmente */
+        margin:10%;
+    }
+    .container-joao p{
+        max-width:400px;
+    }
+
+    nav{
+        padding:0%;
+        margin:0%;
+    }
+}

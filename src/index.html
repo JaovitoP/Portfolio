@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/media-query.css" />
+    <link rel="shortcut icon" href="img/jp_icon.png" type="image/x-icon" />
+    <title>Portfolio</title>
+  </head>
+  <body onresize="mudouTamanho()">
+    <header>
+      <h1>JP</h1>
+    </header>
+    <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()"
+      >menu</span
+    >
+    <menu id="itens">
+      <nav>
+        <a href="#projetos">Projetos</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#contatos">Contatos</a>
+      </nav>
+    </menu>
+
+    <main>
+      <div class="container-joao">
+        <img src="img/fotoportfolio.jpg" id="joao" />
+        <p>
+          Sou estudante de Tecnologia Ut enim nedo nedu nedp ad minim
+          veniam,Excepteur sint occaecat cupidatat non proident, sunt in culpa
+          qui officia deserunt mollit anim id est laborum. Abaixo, estão alguns
+          projetos e minhas informações de contato
+        </p>
+      </div>
+
+      <div class="container-projetos">
+        <div>
+          <a
+            href="https://github.com/Grupo-Syntax-Squad/API.git"
+            target="_blank"
+            ><img src="img/data-sars.png" class="projetos-sombra"
+          /></a>
+          <p id="p-data-sars">
+            Data-Sars é parte do projeto de API da FATEC, sendo uma aplicação
+            web cujo objetivo é trazer informações baseadas em dados do Data-Sus
+            Tabnet e outros sites do governo a respeito de casos de covid longa
+            no Vale do Paraíba-SP.
+          </p>
+        </div>
+      </div>
+      <div class="container-projetos">
+        <div>
+          <a href="#" target="_blank"
+            ><img
+              src="img/callgenie.png"
+              class="projetos-sombra"
+              id="sombra-callgenie"
+          /></a>
+          <p id="p-data-sars">
+            Callgenie é um projeto de API, assim como o Data-sars. Este é uma
+            aplicação react para gerenciamento de Chamados, que liga de forma
+            fácil Administrador, Suporte e Cliente.
+          </p>
+        </div>
+      </div>
+
+      <div class="contato">
+        <a href="https://www.linkedin.com/in/joaopereira18/" target="_blank">
+          <img src="img/In-White-128@2x.png" alt="LinkedIn"
+        /></a>
+        <a href="https://github.com/JaovitoP" target="_blank">
+          <img src="img/github-mark.png" alt="Github"
+        /></a>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!--  -->
