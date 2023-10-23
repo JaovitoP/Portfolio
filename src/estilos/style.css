@@ -58,7 +58,7 @@ nav a:hover::after{
 }
 
 
-body p{
+main p{
     font-size:32px;
 }
 
@@ -70,7 +70,7 @@ main #joao{
     box-shadow: -80px -40px 0 0 #939393;
 }
 
-.container-joao, .container-projetos{
+.container-joao, .container-projeto{
     display:flex;
     margin:auto;
 }
@@ -92,15 +92,28 @@ main #joao{
 .container-joao p {
     font-size: 20pt;
     margin-left:10px;
+    text-indent: 30px;
+    text-align: justify;
+    padding-top: 10%;
 }
 
+.container-projeto{
+    max-width:900px;
+    margin:auto;
+    margin-top:10%;
+    margin-bottom:10%;
+    display: flex;
+}
 .container-projetos{
-    padding:12.5%;
     background-color: #ffffff;
+
 }
 
-.container-projetos p{
+.container-projeto p{
+    margin-left:4rem;
     font-size: 20pt;
+    text-align: justify;
+    padding-top: 2%;
 }
 
 .projetos-sombra{
@@ -115,9 +128,17 @@ main #joao{
     box-shadow: -80px -40px 0 0 #384c69;
 }
 
-.container-projetos img{
+.container-projeto img{
     float: left; 
-    margin-right: 10px; 
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+}
+.container-projeto p{
+    margin-left:4rem;
+    font-size: 20pt;
+    text-align: justify;
+    padding-top: 2%;
 }
 
 .contato{
@@ -142,4 +163,26 @@ main #joao{
 #burguer:hover{
     background-color: rgb(211, 211, 211);
     color:black;
+}
+
+.link_decoration {
+    text-decoration: none;
+    color:black;
+    background-color: rgb(197, 197, 255);
+}
+
+#link_yellow{
+    background-color: rgb(255, 255, 198);
+}
+#link_react{
+    background-color: rgb(204, 245, 255);
+}
+#link_blue{
+    background-color: rgb(191, 194, 255);
+}
+footer{
+    text-align: center;
+}
+footer p{
+    font-size:18pt ;
 }

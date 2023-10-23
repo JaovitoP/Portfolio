@@ -13,16 +13,26 @@
 }
 
 @media screen and (max-width: 768px) {
-    .container-joao {
+    .container-joao, .container-projeto {
         flex-direction: column; /* Altera o layout para empilhar verticalmente */
         margin:10%;
     }
+    .container-joao img, .container-projeto img{
+        margin-left:20%;
+    }
+    
     .container-joao p{
         max-width:400px;
     }
-
+    nav a{
+        display:block;
+        margin: 0%;
+        padding:0%;
+    }
     nav{
         padding:0%;
-        margin:0%;
+    }
+    nav a::after{
+        display:none;
     }
 }

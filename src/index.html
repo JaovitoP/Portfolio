@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="estilos/style.css" />
     <link rel="stylesheet" href="estilos/media-query.css" />
     <link rel="shortcut icon" href="img/jp_icon.png" type="image/x-icon" />
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
     <title>Portfolio</title>
   </head>
   <body onresize="mudouTamanho()">
@@ -31,53 +36,57 @@
       <div class="container-joao">
         <img src="img/fotoportfolio.jpg" id="joao" />
         <p>
-          Sou estudante de Tecnologia Ut enim nedo nedu nedp ad minim
-          veniam,Excepteur sint occaecat cupidatat non proident, sunt in culpa
-          qui officia deserunt mollit anim id est laborum. Abaixo, estão alguns
-          projetos e minhas informações de contato
+          Bem Vindo(a)! Eu sou o João e este é um pouco dos meus projetos acadêmicos e também pessoais.
+          Sou Técnico em Desenvolvimento de Sistemas e já desenvolvi diversos projetos 
+          utilizando diferentes linguagens de programação como <span class="link_decoration" id="link_yellow">Javascript</span>, <span class="link_decoration" id="link_react">React</span>, <span class="link_decoration" id="link_blue">Python</span>... 
+          Além de frameworks e até Design. 
         </p>
       </div>
 
       <div class="container-projetos">
-        <div>
-          <a
-            href="https://github.com/Grupo-Syntax-Squad/API.git"
-            target="_blank"
-            ><img src="img/data-sars.png" class="projetos-sombra"
-          /></a>
-          <p id="p-data-sars">
-            Data-Sars é parte do projeto de API da FATEC, sendo uma aplicação
-            web cujo objetivo é trazer informações baseadas em dados do Data-Sus
-            Tabnet e outros sites do governo a respeito de casos de covid longa
-            no Vale do Paraíba-SP.
-          </p>
+        <div class="container-projeto">
+            <a
+              href="https://github.com/Grupo-Syntax-Squad/API.git"
+              target="_blank"
+              ><img src="img/data-sars.png" class="projetos-sombra"
+            /></a>
+            <p id="p-data-sars">
+              Data-Sars é um dos projetos do API (Aprendizagem pro Projetos Integrados) da FATEC, desenvolvida
+              pela equipe Syntax Squad, da qual eu faço parte.
+              O Data-Sars é uma aplicação
+              web cujo objetivo é ampliar e facilitar o acesso à informações baseadas em dados do Data-Sus
+              Tabnet e outros sites do governo a respeito da Covid longa: os Sintomas pós Covid-19,
+              no Vale do Paraíba-SP. <a href="https://github.com/Grupo-Syntax-Squad/API.git" target="_blank" class="link_decoration">Visualiar Projeto</a>
+            </p>
         </div>
-      </div>
-      <div class="container-projetos">
-        <div>
-          <a href="#" target="_blank"
-            ><img
-              src="img/callgenie.png"
-              class="projetos-sombra"
-              id="sombra-callgenie"
-          /></a>
-          <p id="p-data-sars">
-            Callgenie é um projeto de API, assim como o Data-sars. Este é uma
-            aplicação react para gerenciamento de Chamados, que liga de forma
-            fácil Administrador, Suporte e Cliente.
-          </p>
+        <div class="container-projeto">
+            <a href="https://github.com/Grupo-Syntax-Squad/CallGenie" target="_blank"
+              ><img
+                src="img/callgenie.png"
+                class="projetos-sombra"
+                id="sombra-callgenie"
+            /></a>
+            <p id="p-data-sars">
+              Desenvolvido pelo Syntax Squad, o Callgenie é uma
+              aplicação react para gerenciamento de Chamados, que liga de forma
+              fácil Administrador, Suporte e Cliente. <a href="https://github.com/Grupo-Syntax-Squad/CallGenie" target="_blank" class="link_decoration">Visualizar Projeto</a>
+            </p>
         </div>
-      </div>
-
-      <div class="contato">
-        <a href="https://www.linkedin.com/in/joaopereira18/" target="_blank">
-          <img src="img/In-White-128@2x.png" alt="LinkedIn"
-        /></a>
-        <a href="https://github.com/JaovitoP" target="_blank">
-          <img src="img/github-mark.png" alt="Github"
-        /></a>
       </div>
     </main>
+      <footer>
+        <!-- <div class="contato">
+          <a href="https://www.linkedin.com/in/joaopereira18/" target="_blank">
+            <img src="img/In-White-128@2x.png" alt="LinkedIn"
+            /></a>
+            <a href="https://github.com/JaovitoP" target="_blank">
+              <img src="img/github-mark.png" alt="Github"
+              /></a>
+            </div> -->
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+            <p>Copyright © 2023 João Vitor Pereira</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
