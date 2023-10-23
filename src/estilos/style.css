@@ -5,10 +5,6 @@
     font-family: 'Abel', sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
 html, body{
     background: linear-gradient(9deg, #494949, #ffffff);
 }
@@ -104,9 +100,15 @@ main #joao{
     margin-bottom:10%;
     display: flex;
 }
+
 .container-projetos{
     background-color: #ffffff;
-
+    padding-top:4%;
+    padding-bottom:4%;
+}
+.container-projetos p{
+    text-indent: 30px;
+    text-align: justify;
 }
 
 .container-projeto p{
@@ -128,12 +130,6 @@ main #joao{
     box-shadow: -80px -40px 0 0 #384c69;
 }
 
-.container-projeto img{
-    float: left; 
-    width: 80%;
-    max-width: 100%;
-    height: auto;
-}
 .container-projeto p{
     margin-left:4rem;
     font-size: 20pt;
@@ -183,6 +179,18 @@ main #joao{
 footer{
     text-align: center;
 }
+
 footer p{
-    font-size:18pt ;
+    color: #fff;
+    font-size:18pt;
+    padding-bottom:2%;
+}
+
+footer i{
+    padding:1%;
+    font-size: 40pt;
+}
+
+.projeto-img img{
+    width:700px;
 }
