@@ -17,13 +17,14 @@
         flex-direction: column; /* Altera o layout para empilhar verticalmente */
         margin:10%;
     }
-    .container-joao img, .container-projeto img{
+    .container-joao img{
         margin-left:20%;
     }
     
     .container-joao p{
         max-width:400px;
     }
+
     nav a{
         display:block;
         margin: 0%;
@@ -35,4 +36,12 @@
     nav a::after{
         display:none;
     }
+}
+
+@media screen and (max-width: 1400px) {
+    .container-projeto {
+        flex-direction: column; /* Altera o layout para empilhar verticalmente */
+        margin:10%;
+    }
+
 }

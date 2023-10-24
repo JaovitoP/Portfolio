@@ -79,8 +79,7 @@ main #joao{
 }
 
 .container-joao img{
-    float: left; 
-    width: 30%;
+    float: left;
     max-width: 100%;
     height: auto;
 }
@@ -94,7 +93,7 @@ main #joao{
 }
 
 .container-projeto{
-    max-width:900px;
+    max-width:80%;
     margin:auto;
     margin-top:10%;
     margin-bottom:10%;
@@ -105,7 +104,10 @@ main #joao{
     background-color: #ffffff;
     padding-top:4%;
     padding-bottom:4%;
+    margin:auto;
+    max-width:95%;
 }
+
 .container-projetos p{
     text-indent: 30px;
     text-align: justify;
@@ -118,6 +120,7 @@ main #joao{
     padding-top: 2%;
 }
 
+
 .projetos-sombra{
     border:1px solid white;
     box-shadow: -80px -40px 0 0 #156771;
@@ -126,8 +129,12 @@ main #joao{
     margin: 40px;
 }
 
-#sombra-callgenie{
-    box-shadow: -80px -40px 0 0 #384c69;
+.projetos-sombras{
+    border:1px solid white;
+    box-shadow: 80px 40px 0 0 #384c69;
+    width: 100%;
+    max-width:350px;
+    margin: 40px;
 }
 
 .container-projeto p{
@@ -177,20 +184,21 @@ main #joao{
     background-color: rgb(191, 194, 255);
 }
 footer{
+    background-color: #1c1b1b;
     text-align: center;
 }
 
 footer p{
     color: #fff;
-    font-size:18pt;
+    font-size:12pt;
     padding-bottom:2%;
 }
 
 footer i{
     padding:1%;
-    font-size: 40pt;
+    font-size: 30pt;
 }
 
-.projeto-img img{
-    width:700px;
+.projeto-img{
+    width:8000px;
 }
