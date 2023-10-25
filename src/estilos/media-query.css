@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px){  /*De celulares para cima*/
+@media screen and (min-width: 860px){  /*De celulares para cima*/
     #burguer{
         display: none;
     }
@@ -39,9 +39,18 @@
 }
 
 @media screen and (max-width: 1400px) {
-    .container-projeto {
+    .container-joao, .container-projeto {
         flex-direction: column; /* Altera o layout para empilhar verticalmente */
         margin:10%;
+    }
+    .container-projeto img{
+        margin: auto;
+    }
+    .container-joao img#joao{
+        margin: auto;
+    }
+    #direita{
+        margin-top: 20px;
     }
 
 }

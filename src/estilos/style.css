@@ -8,6 +8,10 @@
 html, body{
     background: linear-gradient(9deg, #494949, #ffffff);
 }
+html {
+    scroll-behavior: smooth;
+}
+
 
 header h1{
     color: #000;
