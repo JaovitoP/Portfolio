@@ -36,6 +36,15 @@
     nav a::after{
         display:none;
     }
+    .projetos-sombra{
+        box-shadow: -40px -20px 0 0 #156771;
+    }
+    .projetos-sombras{
+        box-shadow: 40px 20px 0 0 #384c69;
+    }
+    main #joao{
+        box-shadow: -40px -20px 0 0 #939393;
+    }
 }
 
 @media screen and (max-width: 1400px) {
