@@ -10,15 +10,17 @@
     <link rel="stylesheet" href="estilos/style.css" />
     <link rel="stylesheet" href="estilos/media-query.css" />
     <link rel="shortcut icon" href="img/jp_icon.png" type="image/x-icon" />
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
-    crossorigin="anonymous" 
-    referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Portfolio</title>
   </head>
   <body onresize="mudouTamanho()">
-    <header>
+    <header div class="center">
       <h1>JP</h1>
     </header>
     <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()"
@@ -27,63 +29,88 @@
     <menu id="itens">
       <nav>
         <a href="#joao">Sobre Mim</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#contatos">Contatos</a>
+        <a href="#projetos">Meus Projetos</a>
+        <!-- <a href="#contatos">Contato</a> -->
+        <a href="https://www.linkedin.com/in/joaopereira18/" target="_blank"
+          ><i class="fa-brands fa-linkedin" style="color: #000000"></i
+        > LinkedIn</a>
+        <a href="https://github.com/JaovitoP" target="_blank"
+          ><i class="fa-brands fa-github" style="color: #000000"></i
+        > Github</a>
       </nav>
     </menu>
     <main>
       <div class="container-joao">
-        <img src="img/fotoportfolio.jpg" id="joao"/>
+        <img src="img/fotoportfolio.jpg" id="joao" />
         <p>
-          Bem Vindo(a)! Eu sou o João e este é um pouco dos meus projetos acadêmicos e também pessoais.
-          Sou Técnico em Desenvolvimento de Sistemas e já desenvolvi diversos projetos 
-          utilizando diferentes linguagens de programação, frameworks e também do Design. 
+          Bem Vindo(a)! Eu sou o João e este é um pouco dos meus projetos
+          acadêmicos e também pessoais. Sou Técnico em Desenvolvimento de
+          Sistemas e já desenvolvi diversos projetos utilizando diferentes
+          linguagens de programação, frameworks e também do Design.
         </p>
+      </div>
+      <div class="container-exercito">
+        <p>
+          Em 2023, durante oito intensos meses eu servi o Exército Brasileiro.
+          Foi uma experiência que me fez amadurecer, forjou minha resiliência e
+          contribuiu significativamente para meu desenvolvimento pessoal e
+          profissional.
+        </p>
+        <img src="img/exercito.png" id="soldado" />
       </div>
 
       <div class="container-projetos" id="projetos">
-        <div class="container-projeto projeto-img">
-          <img src="img/data-sars.png" class="projetos-sombra" id="data-sars"
-            />
-            <p id="p-data-sars">
-              Data-Sars é um dos projetos do API (Aprendizagem pro Projetos Integrados) da FATEC, desenvolvida
-              pela equipe Syntax Squad, da qual eu faço parte.
-              O Data-Sars é uma aplicação
-              web cujo objetivo é ampliar e facilitar o acesso à informações baseadas em dados do Data-Sus
-              Tabnet e outros sites do governo a respeito da Covid longa: os Sintomas pós Covid-19,
-              no Vale do Paraíba-SP. <a href="https://github.com/JaovitoP/Data-Sars" target="_blank" class="link_decoration">Visualizar Projeto</a>
-            </p>
-        </div>
-        <div class="container-projeto projeto-img">
+        <div class="container-datasars projeto-img">
+          <img src="img/data-sars.png" class="sombra-datasars" id="data-sars" />
           <p id="p-data-sars">
-            Desenvolvido pelo Syntax Squad, o Callgenie é um sistema CRUD
-            para gestão de Chamados de uma loja de informática fictícia. Feito com Javascript, Sequelize e React, o Callgenie liga de forma
-            fácil Administradores, Suportes e Clientes. <a href="https://github.com/Grupo-Syntax-Squad/CallGenie" target="_blank" class="link_decoration">Visualizar Projeto</a>
+            Data-Sars é um dos projetos do API (Aprendizagem pro Projetos
+            Integrados) da FATEC, desenvolvida pela equipe Syntax Squad, da qual
+            eu faço parte. O Data-Sars é uma aplicação web cujo objetivo é
+            ampliar e facilitar o acesso à informações baseadas em dados do
+            Data-Sus Tabnet e outros sites do governo a respeito da Covid longa:
+            os Sintomas pós Covid-19, no Vale do Paraíba-SP. <br>
+            <a
+              href="https://github.com/JaovitoP/Data-Sars"
+              target="_blank"
+              class="link_decoration"
+              >Código fonte</a
+            >
           </p>
-          <img
-            src="img/callgenie.png"
-            class="projetos-sombras"
-            id="direita"
-        />
         </div>
+        <div class="container-callgenie projeto-img">
+          <p id="p-data-sars">
+            Desenvolvido pelo Syntax Squad, o Callgenie é um sistema CRUD para
+            empresas e companhias que buscam implementar soluções para
+            gerenciamento de Chamados de Serviços, O Callgenie tem 3 tipos de usuários: Clientes, Suportes e Administradores, e ele permite uma melhor
+            gestão dos chamados, aumentando a produtividade e a agilidade no
+            atendimento dos clientes. O Callgenie também faz parte do API da FATEC. <br>
+            <a
+              href="https://github.com/Grupo-Syntax-Squad/CallGenie"
+              target="_blank"
+              class="link_decoration"
+              >Código fonte</a
+            >
+          </p>
+          <img src="img/callgenie.png" class="sombra-callgenie" id="direita" />
+        </div>
+        <!-- <p class="design">Nesta seção eu apresento alguns projetos de design que eu criei utilizando o Figma, inicialmente foram apenas um passatempo mas me fez evoluir minhas habilidades de design!</p>
+        <div class="design-img-container">
+          <img src="img/ghibli.png" alt="" class="design-img">
+          <img src="img/hobbit.png" alt="" class="design-img">
+        </div> -->
       </div>
     </main>
-      <footer id="contatos">
-        <!-- <div class="contato">
-          <a href="https://www.linkedin.com/in/joaopereira18/" target="_blank">
-            <img src="img/In-White-128@2x.png" alt="LinkedIn"
-            /></a>
-            <a href="https://github.com/JaovitoP" target="_blank">
-              <img src="img/github-mark.png" alt="Github"
-              /></a>
-            </div> -->
-            <div class="link_footer">
-              <a href="https://www.linkedin.com/in/joaopereira18/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
-              <a href="https://github.com/JaovitoP" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
-            </div>
-            <p>Copyright © 2023 João Vitor Pereira</p>
+    <footer id="contatos">
+      <div class="link_footer">
+        <a href="https://www.linkedin.com/in/joaopereira18/" target="_blank"
+          ><i class="fa-brands fa-linkedin" style="color: #ffffff"></i
+        ></a>
+        <a href="https://github.com/JaovitoP" target="_blank"
+          ><i class="fa-brands fa-github" style="color: #ffffff"></i
+        ></a>
+      </div>
+      <p>Copyright © 2023 João Vitor Pereira</p>
     </footer>
     <script src="/src/script.js"></script>
   </body>
 </html>
-<!--  -->

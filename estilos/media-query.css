@@ -1,63 +1,92 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 860px){  /*De celulares para cima*/
-    #burguer{
-        display: none;
-    }
-    nav{
-        display:block;
-    }
-    nav a {
-        display: inline-block;
-    }
+@media screen and (min-width: 860px) {
+  /*De celulares para cima*/
+  #burguer {
+    display: none;
+  }
+  nav {
+    display: block;
+  }
+  nav a {
+    display: inline-block;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .container-joao, .container-projeto {
-        flex-direction: column; /* Altera o layout para empilhar verticalmente */
-        margin:10%;
-    }
-    .container-joao img{
-        margin-left:20%;
-    }
-    .container-joao p{
-        max-width:400px;
-    }
-    nav a{
-        display:block;
-        margin: 0%;
-        padding:0%;
-    }
-    nav{
-        padding:0%;
-    }
-    nav a::after{
-        display:none;
-    }
-    .projetos-sombra{
-        box-shadow: -40px -20px 0 0 #156771;
-    }
-    .projetos-sombras{
-        box-shadow: 40px 20px 0 0 #384c69;
-    }
-    main #joao{
-        box-shadow: -40px -20px 0 0 #939393;
-    }
+  .container-joao p,
+  .container-exercito p,
+  .container-datasars p,
+  .container-callgenie p{
+    text-align: justify;
+  }
+  .container-joao,
+  .container-exercito,
+  .container-datasars,
+  .container-callgenie  {
+    flex-direction: column;
+    margin:10%;
+  }
+  .container-joao img {
+    margin-left: 20%;
+  }
+  .container-exercito img {
+    margin-left: 20%;
+  }
+  .container-joao p,
+  .container-exercito p,
+  .container-datasars p,
+  .container-callgenie p
+   {
+    max-width: 400px;
+    margin-right: -21%;
+    margin-left: 0%;
+  }
+
+  nav{
+    display: block;
+    padding-left: 20%;
+  }
+
+  nav a::after {
+    display: none;
+    flex-direction: column;
+  }
+
+  .sombra-datasars {
+    box-shadow: -40px -20px 0 0 #156771;
+  }
+  .sombra-callgenie {
+    box-shadow: 40px 20px 0 0 #384c69;
+  }
+  main #joao {
+    box-shadow: -40px -20px 0 0 #939393;
+  }
+  main #soldado {
+    margin-left: 0%;
+    box-shadow: 40px 20px 0 0 #939393;
+  }
 }
 
 @media screen and (max-width: 1400px) {
-    .container-joao, .container-projeto {
-        flex-direction: column; /* Altera o layout para empilhar verticalmente */
-        margin:10%;
-    }
-    .container-projeto img{
-        margin: auto;
-    }
-    .container-joao img#joao{
-        margin: auto;
-    }
-    #direita{
-        margin-top: 20px;
-    }
-
+  .container-joao,
+  .sombra-datasars,
+  .sombra-callgenie
+  .container-exercito {
+    flex-direction: column;
+    margin: 10%;
+  }
+  .sombra-datasars img {
+    margin: auto;
+  }
+  .sombra-callgenie img {
+    margin: auto;
+  }
+  .container-joao img#joao .container-exercito img#soldado {
+    margin: auto;
+  }
+  #direita {
+    margin-top: 20px;
+    margin-left:0%;
+  }
 }
