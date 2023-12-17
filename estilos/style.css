@@ -106,6 +106,10 @@ main #soldado {
   max-width: 100%;
   height: auto;
 }
+img:hover{
+  transform: scale(1.05);
+  transition: .6s;
+}
 
 .container-exercito img {
   float: right;
@@ -252,7 +256,11 @@ footer i {
 
 .design {
   margin: auto;
-  max-width: 80%;
   text-align: center;
   padding-bottom: 1rem;
+  font-size: 20pt;
+}
+
+.center{
+  text-align: center;
 }
