@@ -21,7 +21,7 @@
   </head>
   <body onresize="mudouTamanho()">
     <header class="center">
-      <h1>JP</h1>
+      <h1>JP&lt;/&gt;</h1>
     </header>
     <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()"
       >menu</span
@@ -30,12 +30,11 @@
       <nav>
         <a href="#joao">Sobre Mim</a>
         <a href="#projetos">Meus Projetos</a>
-        <!-- <a href="#contatos">Contato</a> -->
         <a href="https://www.linkedin.com/in/joaopereira18/" target="_blank"
-          ><i class="fa-brands fa-linkedin" style="color: #000000"></i
+          ><i class="fa-brands fa-linkedin" style="color: #ffffff"></i
         > LinkedIn</a>
         <a href="https://github.com/JaovitoP" target="_blank"
-          ><i class="fa-brands fa-github" style="color: #000000"></i
+          ><i class="fa-brands fa-github" style="color: #ffffff"></i
         > Github</a>
       </nav>
     </menu>
@@ -44,7 +43,7 @@
         <img src="img/fotoportfolio.jpg" id="joao" />
         <p>
           Bem Vindo(a)! Eu sou o João e este é um pouco dos meus projetos
-          acadêmicos e também pessoais. Sou Técnico em Desenvolvimento de
+          acadêmicos e pessoais. Sou Técnico em Desenvolvimento de
           Sistemas e já desenvolvi diversos projetos utilizando diferentes
           linguagens de programação, frameworks e também do Design.
         </p>
@@ -61,7 +60,7 @@
 
       <div class="container-projetos" id="projetos">
         <div class="container-datasars projeto-img">
-          <img src="img/data-sars.png" class="sombra-datasars" id="data-sars" />
+          <a href="https://github.com/JaovitoP/Data-Sars" target="_blank"><img src="img/data-sars.png" class="sombra-datasars" id="data-sars" /></a>
           <p id="p-data-sars">
             Data-Sars é um dos projetos do API (Aprendizagem pro Projetos
             Integrados) da FATEC, desenvolvida pela equipe Syntax Squad, da qual
@@ -69,12 +68,6 @@
             ampliar e facilitar o acesso à informações baseadas em dados do
             Data-Sus Tabnet e outros sites do governo a respeito da Covid longa:
             os Sintomas pós Covid-19, no Vale do Paraíba-SP. <br>
-            <a
-              href="https://github.com/JaovitoP/Data-Sars"
-              target="_blank"
-              class="link_decoration"
-              >Código fonte</a
-            >
           </p>
         </div>
         <div class="container-callgenie projeto-img">
@@ -83,21 +76,26 @@
             empresas e companhias que buscam implementar soluções para
             gerenciamento de Chamados de Serviços, O Callgenie tem 3 tipos de usuários: Clientes, Suportes e Administradores, e ele permite uma melhor
             gestão dos chamados, aumentando a produtividade e a agilidade no
-            atendimento dos clientes. O Callgenie também faz parte do API da FATEC. <br>
-            <a
-              href="https://github.com/Grupo-Syntax-Squad/CallGenie"
-              target="_blank"
-              class="link_decoration"
-              >Código fonte</a
-            >
+            atendimento dos clientes. <br>
           </p>
-          <img src="img/callgenie.png" class="sombra-callgenie" id="direita" />
+          <a href="https://github.com/Grupo-Syntax-Squad/CallGenie" target="_blank"><img src="img/callgenie.png" class="sombra-callgenie" id="direita" /></a>
         </div>
-        <!-- <h2 class="center">Designs feitos no Figma</h2>
-        <div class="design-img-container">
-          <img src="img/ghibli.png" alt="" class="design-img">
-          <img src="img/hobbit.png" alt="" class="design-img">
-        </div> -->
+
+        <div class="container-datasars projeto-img">
+          <a href="https://github.com/JaovitoP/Data-Sars" target="_blank"><img src="img/assetbox.png" class="sombra-assetbox" id="data-sars" /></a>
+          <p id="p-data-sars">
+          O AssetBox é um software Web se gerenciamento de ativos que tem como objetivo resolver problemas relacionadoos à má gestão de ativos por parte de empresas. O AssetBox permite o cadastro e monitoramento de Ativos,
+          além da atribuição destes a destinatários. O usuário também pode cadastrar manutenções e, receber notificações e obter indicadores de desempenho por meio de relatórios e dashboard. <br>
+          </p>
+        </div>
+        <div class="prototipos">
+          <img src="img/figma.png" id="figma-icon" alt="">
+          <p class="texto-centralizado">Wireframes</p>
+          <div id="design-img-container" class="design-img-container">
+            <img src="img/ghibli.png" alt="" class="design-img">
+            <img src="img/hobbit.png" alt="" class="design-img">
+          </div>
+        </div>
       </div>
     </main>
     <footer id="contatos">
