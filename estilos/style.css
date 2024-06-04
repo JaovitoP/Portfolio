@@ -22,12 +22,12 @@ header, menu{
 }
 
 header h1 {
+  text-align: center;
   color: rgb(255, 255, 255);
   font-family: Cormorant Unicase;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 47%;
   font-size: 70pt;
 }
 
