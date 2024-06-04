@@ -141,7 +141,7 @@ img:hover{
 
 .container-datasars {
   justify-content: center;
-  max-width: 90%;
+  max-width: 70%;
   margin: auto;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -150,7 +150,7 @@ img:hover{
 
 .container-callgenie {
   justify-content: center;
-  max-width: 90%;
+  max-width: 70%;
   margin: auto;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -236,15 +236,6 @@ img:hover{
   background-color: rgb(197, 197, 255);
 }
 
-#link_yellow {
-  background-color: rgb(255, 255, 198);
-}
-#link_react {
-  background-color: rgb(204, 245, 255);
-}
-#link_blue {
-  background-color: rgb(191, 194, 255);
-}
 footer {
   background-color: #1c1b1b;
   text-align: center;
@@ -274,6 +265,7 @@ footer i {
 .design-img-container {
   padding: 5%;
   display: flex;
+  gap: 2%;
   justify-content: space-around;
 }
 
@@ -298,8 +290,7 @@ p.texto-centralizado {
   text-align: center;
 }
 
-.tecnologias{
-  display: flex;
-  justify-content: center;
-  gap: 1%;
+.img-wireframe{
+  max-width:50%;
+  gap: 10%;
 }

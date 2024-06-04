@@ -14,6 +14,11 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .img-wireframe{
+    max-width: 100%;
+  }
+
   .container-joao p,
   .container-exercito p,
   .container-datasars p,
@@ -76,7 +81,6 @@
     width:400px;
     height:250px;
     padding: 1rem;
-    margin-left: 2rem;
   }
 }
 
