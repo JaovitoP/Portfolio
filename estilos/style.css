@@ -297,6 +297,12 @@ p.texto-centralizado {
   width: 100px;
 }
 
-.topicos{
-  /* background-color: red; */
+.parceiro{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.parceiro h3{
+  max-width: 100%;
 }
