@@ -48,6 +48,11 @@
     margin-left: 0%;
   }
 
+  .container-datasars p{
+    max-width: 80%;
+    margin-right: 0%;
+  }
+
   nav{
     display: block;
     padding-left: 20%;

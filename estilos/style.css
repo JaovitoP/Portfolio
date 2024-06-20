@@ -297,12 +297,12 @@ p.texto-centralizado {
   width: 100px;
 }
 
-.parceiro{
-  display: flex;
-  flex-direction: row;
-  
+p.tecnologias{
+  max-width: 55%;
+  text-align: center;
 }
 
-.parceiro h3{
-  max-width: 100%;
+
+.container-datasars h3{
+  text-align: center;
 }
