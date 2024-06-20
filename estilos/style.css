@@ -306,3 +306,13 @@ p.tecnologias{
 .container-datasars h3{
   text-align: center;
 }
+
+.parceiro{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.parceiro h3{
+  max-width: 100%;
+}
