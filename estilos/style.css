@@ -127,16 +127,9 @@ img:hover{
   letter-spacing: .2rem;
   font-size: 15pt;
   margin-left: 10%;
-  text-align: right;
-  padding-top: 8%;
-}
-
-.container-exercito p {
-  letter-spacing: .2rem;
-  font-size: 15pt;
-  margin-right: 5%;
+  margin-top: 10%;
   text-align: left;
-  padding-top: 7%;
+  padding-top: 8%;
 }
 
 .container-datasars {
@@ -178,7 +171,7 @@ img:hover{
 
 .sombra-callgenie {
   border: 1px solid white;
-  box-shadow: 20px 20px 0 0 #4b6283;
+  box-shadow: -20px -20px 0 0 #4b6283;
   width: 100%;
   max-width: 485px;
   margin: 40px;
@@ -315,4 +308,17 @@ p.tecnologias{
 
 .parceiro h3{
   max-width: 100%;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  gap: 50px;
+  max-width: 50%;
+}
+
+video{
+  width: 500px;
 }

@@ -87,6 +87,13 @@
     height:250px;
     padding: 1rem;
   }
+
+  .flex-container{
+    display: block;
+  }
+  .container-joao p {
+    margin-left: 15%;
+  }
 }
 
 @media screen and (max-width: 1400px) {
