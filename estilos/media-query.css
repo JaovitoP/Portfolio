@@ -18,8 +18,9 @@
   .img-wireframe{
     max-width: 100%;
   }
-
-  .container-joao p,
+  .container-joao p {
+    text-align: left;
+  }
   .container-exercito p,
   .container-datasars p,
   .container-callgenie p{
