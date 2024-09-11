@@ -49,7 +49,7 @@
   }
 
   .container-datasars p{
-    max-width: 80%;
+    max-width: 100%;
     margin-right: 0%;
   }
 
@@ -64,10 +64,13 @@
   }
 
   .sombra-datasars {
-    box-shadow: -40px -20px 0 0 #156771;
+    box-shadow: -40px -20px 0 0 #15667100;
   }
   .sombra-callgenie {
-    box-shadow: 40px 20px 0 0 #384c69;
+    box-shadow: 40px 20px 0 0 #384c6900;
+  }
+  .sombra-assetbox{
+    box-shadow: 40px 20px 0 0 #384c6900;
   }
   main #joao {
     box-shadow: -40px -20px 0 0 #939393;
