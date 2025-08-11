@@ -185,6 +185,22 @@ img:hover{
   margin: 40px;
 }
 
+.sombra-tupan {
+  border: 1px solid white;
+  box-shadow: -20px -20px 0 0 #339f04;
+  width: 100%;
+  max-width: 485px;
+  margin: 40px;
+}
+
+.sombra-neurahive {
+  border: 1px solid white;
+  box-shadow: -20px -20px 0 0 #e39c19;
+  width: 100%;
+  max-width: 485px;
+  margin: 40px;
+}
+
 .container-datasars p {
   max-width: 55%;
   font-size: 15pt;
